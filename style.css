@@ -1,0 +1,62 @@
+/*
+ * Style sheet for the Auto-Pilot WordPress Plugin admin page.
+ */
+
+/* General admin page styling */
+.wrap {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Admin page heading */
+.wrap h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.wrap form {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border: 1px solid #ddd;
+}
+
+/* Submit button styling */
+.wrap form .submit {
+    margin-top: 20px;
+}
+
+/* Input and textarea fields styling */
+.wrap form input[type="text"],
+.wrap form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Select dropdown styling */
+.wrap form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* Admin page icon styling */
+.dashicons-admin-generic {
+    color: #82878c;
+}
+
+/* Responsive adjustments */
+@media (max-width: 782px) {
+    .wrap {
+        margin: 10px;
+    }
+}
